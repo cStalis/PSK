@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Production and test output
+dist/
+coverage/
+
+# TypeScript build metadata and generated JavaScript declarations
+*.tsbuildinfo
+*.d.ts
+vite.config.js
+vite.config.d.ts
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
